@@ -1,0 +1,179 @@
+/* ---------------- Global CSS ----------------*/
+
+
+body {
+    background-color: lightgray;
+}
+
+
+
+
+/* ---------------- Reusable CSS ----------------*/
+
+
+
+
+
+
+
+/* ---------------- Hope Page CSS ----------------*/
+
+.nav-link {
+    display: inline-block;
+    color: navy !important;
+}
+
+.navbar-nav .highlight a {
+    background: orange;
+    border-radius: 5px;
+    padding: .2rem 1rem;
+    margin: .3rem 0;
+}
+
+.carousel {
+    position: relative;
+}
+
+.banner-front {
+    position: absolute;
+    top: 3%;
+    left: 25%;
+}
+
+
+
+/* --- Body Section --*/
+
+
+.body-section {
+    padding: 2rem 0;
+}
+
+.body-section .sidebar {
+    -webkit-box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+.body-section .sidebar li {
+    padding: .5rem 1rem;
+    background: white;
+    color: navy;
+    border: 1px solid gray;
+}
+
+
+.item {
+    -webkit-box-shadow: 0 5px 10px 0 #bbb;
+    box-shadow: 0 5px 10px 0 #bbb;
+    border: 1px solid #999999;
+    margin: .5rem;
+    border-radius: 5px;
+    -webkit-transition: .3s ease-in;
+    transition: .3s ease-in;
+
+}
+
+.item:hover {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+.onlineShop-service {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem .5rem;
+    margin-bottom: 1rem;
+}
+
+/* ========== apps banner ========== */
+
+.apps-banner {
+    position: relative;
+}
+
+.apps-banner-float {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+
+}
+
+/* ========== Useful Service ========== */
+
+.useful-service-section {
+    padding: 2rem 0;
+}
+
+
+
+.useful-service-section .service-text {
+    font-size: .7rem;
+}
+
+
+/* ========== Category Page ========== */
+.sub-category ul {
+    background: white;
+    padding: 1rem 2rem;
+    width: 100%;
+    margin: auto;
+}
+
+.sub-category ul li {
+    background-color: #e9e8e8;
+    margin: .2rem;
+    padding: .7rem;
+}
+
+.sub-category ul li a {
+    font-size: 1.5rem;
+    color: #414e5a;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+.sub-category ul li a:hover {
+    color: #1274c0;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+
+@media (max-width: 438px) {
+    .sub-category ul li a {
+        font-size: 1rem;
+
+
+    }
+}
+
+@media (max-width: 320px) {
+    .sub-category ul li a {
+        font-size: .8rem;
+
+
+    }
+}
+
+
+.fix-right-div {
+    position: fixed;
+    top: 200px;
+    right: 0;
+    -webkit-transform: rotate(20deg);
+    transform: rotate(-90deg);
+}
+
+.fix-right-div a {
+    background: gray;
+    padding: .5rem;
+    font-size: 1rem;
+    color: white;
+}
