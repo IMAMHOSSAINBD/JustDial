@@ -253,3 +253,17 @@ body {
     margin: .5rem;
     background: white;
 }
+
+.sidebar .div ul li {
+    padding: .5rem 0;
+}
+
+.subtitle-inner .product-des a {
+    text-decoration: none;
+
+}
+
+.subtitle-inner .product-des a ul li {
+    color: #788898;
+    padding: .2rem 0;
+}
