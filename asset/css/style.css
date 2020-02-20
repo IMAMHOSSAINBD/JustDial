@@ -10,13 +10,30 @@ body {
 
 /* ---------------- Reusable CSS ----------------*/
 
+.fix-right-div {
+    position: fixed;
+    bottom: 300px;
+    right: -120px;
+    -webkit-transform: rotate(20deg);
+    transform: rotate(-90deg);
+}
+
+.fix-right-div a {
+    background: gray;
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #dfe6e9;
+    background-color: #1274c0;
+}
 
 
 
 
 
 
-/* ---------------- Hope Page CSS ----------------*/
+/* ---------------- Home Page CSS ----------------*/
 
 .nav-link {
     display: inline-block;
@@ -118,7 +135,31 @@ body {
 }
 
 
+.footer-top ul li {
+    display: inline-block;
+    padding: .5rem;
+}
+
+.footer-top ul li a {
+    color: black;
+}
+
+
+.footer-top .flag ul li {
+    display: inline;
+    padding: 0;
+
+}
+
+.footer-top .icon-bottom a {
+    color: orange;
+    font-size: 2rem;
+    padding: .5rem;
+}
+
 /* ========== Category Page ========== */
+
+/* -----------------Moto Care Sub Category Page ---------*/
 .sub-category ul {
     background: white;
     padding: 1rem 2rem;
@@ -163,17 +204,52 @@ body {
 }
 
 
-.fix-right-div {
-    position: fixed;
-    top: 200px;
-    right: 0;
-    -webkit-transform: rotate(20deg);
-    transform: rotate(-90deg);
+/* ----------------- Moto Wash of Sub Category Moto Care ---------*/
+
+
+
+.subtitle-inner .shortByResult {
+    border: 1px solid gray;
+    margin: 2rem 0;
+
 }
 
-.fix-right-div a {
-    background: gray;
+.subtitle-inner .shortByResult ul li,
+.subtitle-inner .shortByResult ul li a {
     padding: .5rem;
-    font-size: 1rem;
-    color: white;
+    text-align: center;
+    padding: 1rem;
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.subtitle-inner .shortByResult ul li:hover,
+.subtitle-inner .shortByResult ul li a:hover {
+    color: #1274c0;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+.subtitle-inner .shortByResult ul li:nth-child(1) {
+    background: gray;
+    padding: 1rem 3rem;
+    color: #1274c0;
+}
+
+@media (max-width: 767px) {
+    .subtitle-inner .shortByResult ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+.sidebar .div {
+    padding: .5rem;
+    border: 1px solid gray;
+    margin: .5rem;
+    background: white;
 }
