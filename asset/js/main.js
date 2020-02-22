@@ -251,3 +251,22 @@ $('.hotelBook-carousel').owlCarousel({
         }
     }
 })
+
+
+window.bkash = function (bkashFunction) {
+    if (bkashFunction == no) {
+        document.getElementById('bkash_code').style.display = 'none';
+    } else if (bkashFunction == yes) {
+        document.getElementById('bkash_code').style.display = 'block';
+        return;
+    }
+}
+
+window.rocket = function (rocketFunction) {
+    if (rocketFunction == no) {
+        document.getElementById('rocket_code').style.display = 'none';
+    } else if (rocketFunction == yes) {
+        document.getElementById('rocket_code').style.display = 'block';
+        return;
+    }
+}

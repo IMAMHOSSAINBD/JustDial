@@ -29,23 +29,117 @@
                 <div class="collapse navbar-collapse float-right" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item highlight">
-                            <a class="nav-link" href="#">Free Listing <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="free-listing.htm">Free Listing <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Advertise</a>
+                            <a class="nav-link" href="advertise.htm">Advertise</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">English</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Login</a>
+                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true" data-toggle="modal" data-target="#login-modal">Login</a>
+
+                            <!-- Login Modal -->
+                            <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="edit-modal-Label" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-center">
+
+                                            <div class="d-block">
+                                                <a href="#">
+                                                    <img src="asset/img/logo.png" class="img-fluid" alt="">
+                                                </a>
+                                            </div>
+
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-dark">
+                                            <p class="text-center">Login for Seamless experience</p>
+                                            <form>
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" id="loginName" aria-describedby="loginName" placeholder="Name">
+
+                                                </div>
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" id="loginNumber" placeholder="Mobile Number">
+                                                </div>
+
+                                                <button type="submit" class="btn btn-info">Send OTP</button>
+                                            </form>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
                             <span>/</span>
-                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Sign Up</a>
+
+
+                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true" data-toggle="modal" data-target="#signUp-modal">Sing Up</a>
+
+                            <!-- Login Modal -->
+                            <div class="modal fade" id="signUp-modal" tabindex="-1" role="dialog" aria-labelledby="signUp-modal-Label" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-center">
+
+                                            <div class="d-block">
+                                                <a href="#">
+                                                    <img src="asset/img/logo.png" class="img-fluid" alt="">
+                                                </a>
+                                            </div>
+
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-dark">
+                                            <p class="text-center">Sign Up for Seamless experience</p>
+                                            <form>
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" id="signUpName" aria-describedby="signUpName" placeholder="Name">
+
+                                                </div>
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" id="signUpNumber" placeholder="Mobile Number">
+                                                </div>
+                                                <div class="form-group">
+
+                                                    <input type="password" class="form-control" id="signUpPassword" placeholder="Password">
+                                                </div>
+
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">I Agree to JustDial's <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></label>
+                                                </div>
+
+                                                <button type="submit" class="btn btn-info">Sign Up</button>
+                                            </form>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fas fa-plus-square"></i> Join Our Team</a>
-                        </li>
+
                     </ul>
                 </div>
             </nav>
@@ -59,7 +153,7 @@
             <ul class="list-unstyled">
                 <li><a href="moto-wash.htm">
                         <div class="d-inline-block">
-                            <span class="pr-3"><i class="fas fa-shower"></i></span><span>Bike Wash</span>
+                            <span class="pr-3"><i class="fas fa-shower"></i></span><span>Moto Wash</span>
                         </div>
                         <div class="d-inline-block float-right">
                             <i class="fas fa-chevron-right "></i>
@@ -346,9 +440,9 @@
     <!---------------- Always Display Fix Div ------------------->
 
     <div class="fix-right-div">
-        <a href="#">Advertise</a>
+        <a href="advertise.htm">Advertise</a>
         <a href="#">Customer Care</a>
-        <a href="#">Sign Up</a>
+        <a href="#l" href="#" tabindex="-1" aria-disabled="true" data-toggle="modal" data-target="#signUp-modal">Sign Up</a>
 
     </div>
 

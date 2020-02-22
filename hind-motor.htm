@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="asset/css/style.css">
 
     <title>Justdial - Local Search, Social, News, Videos, Shopping</title>
+
 </head>
 
 <body>
@@ -29,23 +30,117 @@
                 <div class="collapse navbar-collapse float-right" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item highlight">
-                            <a class="nav-link" href="#">Free Listing <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="free-listing.htm">Free Listing <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Advertise</a>
+                            <a class="nav-link" href="advertise.htm">Advertise</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">English</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Login</a>
+                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true" data-toggle="modal" data-target="#login-modal">Login</a>
+
+                            <!-- Login Modal -->
+                            <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="edit-modal-Label" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-center">
+
+                                            <div class="d-block">
+                                                <a href="#">
+                                                    <img src="asset/img/logo.png" class="img-fluid" alt="">
+                                                </a>
+                                            </div>
+
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-dark">
+                                            <p class="text-center">Login for Seamless experience</p>
+                                            <form>
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" id="loginName" aria-describedby="loginName" placeholder="Name">
+
+                                                </div>
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" id="loginNumber" placeholder="Mobile Number">
+                                                </div>
+
+                                                <button type="submit" class="btn btn-info">Send OTP</button>
+                                            </form>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
                             <span>/</span>
-                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Sign Up</a>
+
+
+                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true" data-toggle="modal" data-target="#signUp-modal">Sing Up</a>
+
+                            <!-- Login Modal -->
+                            <div class="modal fade" id="signUp-modal" tabindex="-1" role="dialog" aria-labelledby="signUp-modal-Label" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-center">
+
+                                            <div class="d-block">
+                                                <a href="#">
+                                                    <img src="asset/img/logo.png" class="img-fluid" alt="">
+                                                </a>
+                                            </div>
+
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-dark">
+                                            <p class="text-center">Sign Up for Seamless experience</p>
+                                            <form>
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" id="signUpName" aria-describedby="signUpName" placeholder="Name">
+
+                                                </div>
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" id="signUpNumber" placeholder="Mobile Number">
+                                                </div>
+                                                <div class="form-group">
+
+                                                    <input type="password" class="form-control" id="signUpPassword" placeholder="Password">
+                                                </div>
+
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">I Agree to JustDial's <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></label>
+                                                </div>
+
+                                                <button type="submit" class="btn btn-info">Sign Up</button>
+                                            </form>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fas fa-plus-square"></i> Join Our Team</a>
-                        </li>
+
                     </ul>
                 </div>
             </nav>
@@ -153,74 +248,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body text-dark">
-                                    <h5>We are Available</h5>
-                                    <img src="asset/img/category-page/dbbl-bkash.png" class="img-fluid" alt="payment Image">
-                                    <form action="">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control mt-2 mb-2" id="FullName" aria-describedby="FullName" placeholder="Enter Your Full Name">
-                                            <input type="email" class="form-control mt-2 mb-2" id="bkash-email" aria-describedby="bkash-email" placeholder="Enter Your Email">
 
-                                            <label for="additonalDriver">Would you like to payment by <span> <img src="asset/img/category-page/bkash-logo.png" height="10%" width="10%" alt=""></span> ?</label>
-
-                                            <div>
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" onclick="marketer(yes)" type="radio" name="additonalDriver" id="yes" value="yes">
-                                                    <label class="form-check-label" for="yes2">Yes</label>
-                                                </div>
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="additonalDriver" id="no" value="no" onclick="marketer(no)">
-                                                    <label class="form-check-label" for="no">No</label>
-                                                </div>
-                                            </div>
-
-                                            <div id='reagent_code' style="display:none">
-                                                <form>
-                                                    <div class="form-group">
-
-                                                        <input type="text" class="form-control mt-2 mb-2" id="bkash-Phone" aria-describedby="bkash-Phone" placeholder="Enter the Bkash Number">
-                                                        <input type="text" class="form-control mt-2 mb-2" id="bkash-TrxID" aria-describedby="bkash-TrxID" placeholder="Enter the TrxID">
-
-                                                    </div>
-
-
-                                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                                </form>
-                                            </div>
-
-                                            <label for="additonalDriver">Would you like to payment by <span> <img src="asset/img/category-page/rocket-logo.png" height="10%" width="10%" alt=""></span> ?</label>
-
-                                            <div>
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" onclick="marketer1(yes)" type="radio" name="additonalDriver1" id="yes1" value="yes1">
-                                                    <label class="form-check-label" for="yes2">Yes</label>
-                                                </div>
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="additonalDriver1" id="no1" value="no1" onclick="marketer1(no)">
-                                                    <label class="form-check-label" for="no">No</label>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-                                    </form>
-
-
-
-
-
-                                    <div id='reagent_code1' style="display:none">
-                                        <form>
-                                            <div class="form-group">
-
-                                                <input type="text" class="form-control mt-2 mb-2" id="bkash-Phone" aria-describedby="bkash-Phone" placeholder="Enter the Bkash Number">
-                                                <input type="text" class="form-control mt-2 mb-2" id="bkash-TrxID" aria-describedby="bkash-TrxID" placeholder="Enter the TrxID">
-
-                                            </div>
-
-
-                                            <button type="submit" class="btn btn-primary">Submit</button>
-                                        </form>
-                                    </div>
 
 
 
@@ -311,13 +339,28 @@
 
 
                             <div class="form-group">
-                                <label for="reviewAdd">EAdd Review</label>
+                                <label for="reviewAdd">Add Review</label>
                                 <textarea class="form-control" id="reviewAdd" rows="3"></textarea>
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlFile1">Attach Photos to this Review (Optional)</label>
                                 <input type="file" class="form-control-file" id="exampleFormControlFile1">
                             </div>
+                            <div>
+                                <p class="font-weight-bold">Please rate your experience:</p>
+                                <div>
+                                    <span onmouseover="starmark(this)" onclick="starmark(this)" id="1one" style="font-size:40px;cursor:pointer;" class="fa fa-star checked"></span>
+                                    <span onmouseover="starmark(this)" onclick="starmark(this)" id="2one" style="font-size:40px;cursor:pointer;" class="fa fa-star "></span>
+                                    <span onmouseover="starmark(this)" onclick="starmark(this)" id="3one" style="font-size:40px;cursor:pointer;" class="fa fa-star "></span>
+                                    <span onmouseover="starmark(this)" onclick="starmark(this)" id="4one" style="font-size:40px;cursor:pointer;" class="fa fa-star"></span>
+                                    <span onmouseover="starmark(this)" onclick="starmark(this)" id="5one" style="font-size:40px;cursor:pointer;" class="fa fa-star"></span>
+                                </div>
+
+                            </div>
+                            <div class="text-center lg-Btn">
+                                <button type="button" class="  btn-info">Submit</button>
+                            </div>
+
                         </form>
                     </div>
 
@@ -365,27 +408,99 @@
 
 
                 <div class="col-md-4">
-                    <div class="lg-Btn text-center">
+                    <div class="">
 
-                        <a href="#" class="" data-toggle="modal" data-target="#edit-modal">
-                            Order Now
-                        </a>
+                        <span class="" data-toggle="modal" data-target="#order-modal">
 
-                        <!-- Order Modal -->
+
+
+                            <div class="lg-Btn text-center p-2 text-light">
+                                <h3>Order Now</h3>
+                            </div>
+                        </span>
+                        <!-- Share Modal -->
                         <div class="modal fade" id="order-modal" tabindex="-1" role="dialog" aria-labelledby="order-modal-Label" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-scrollable" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header text-center">
-                                        <h5 class="modal-title text-dark " id="order-modal-Label">Share With Friends</h5>
+                                        <h5 class="modal-title text-dark " id="order-modal-Label">Payment Method</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <div class="modal-body">
-                                        <h5>Payment Method</h5>
+                                    <div class="modal-body text-dark">
+                                        <h5>We are Available</h5>
+                                        <img src="asset/img/category-page/dbbl-bkash.png" class="img-fluid" alt="payment Image">
+                                        <form action="">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control mt-2 mb-2" id="FullName" aria-describedby="FullName" placeholder="Enter Your Full Name">
+                                                <input type="email" class="form-control mt-2 mb-2" id="bkash-email" aria-describedby="bkash-email" placeholder="Enter Your Email">
+
+                                                <label for="bkash-Radio">Would you like to payment by <span> <img src="asset/img/category-page/bkash-logo.png" height="10%" width="10%" alt=""></span> ?</label>
+
+                                                <div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" onclick="bkash(yes)" type="radio" name="bkash-Radio" id="yes" value="yes">
+                                                        <label class="form-check-label" for="yes2">Yes</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="bkash-Radio" id="no" value="no" onclick="bkash(no)">
+                                                        <label class="form-check-label" for="no">No</label>
+                                                    </div>
+                                                </div>
+
+                                                <div id='bkash_code' style="display:none">
+                                                    <form>
+                                                        <div class="form-group">
+
+                                                            <input type="text" class="form-control mt-2 mb-2" id="bkash-Phone" aria-describedby="bkash-Phone" placeholder="Enter the Bkash Number">
+                                                            <input type="text" class="form-control mt-2 mb-2" id="bkash-TrxID" aria-describedby="bkash-TrxID" placeholder="Enter the TrxID">
+
+                                                        </div>
+
+
+                                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                                    </form>
+                                                </div>
+
+                                                <label for="rocket-radio">Would you like to payment by <span> <img src="asset/img/category-page/rocket-logo.png" height="10%" width="10%" alt=""></span> ?</label>
+
+                                                <div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" onclick="rocket(yes)" type="radio" name="rocket-radio" id="yes1" value="yes1">
+                                                        <label class="form-check-label" for="yes2">Yes</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="rocket-radio" id="no1" value="no1" onclick="rocket(no)">
+                                                        <label class="form-check-label" for="no">No</label>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </form>
+
+
+
+
+
+                                        <div id='rocket_code' style="display:none">
+                                            <form>
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control mt-2 mb-2" id="bkash-Phone" aria-describedby="bkash-Phone" placeholder="Enter the Bkash Number">
+                                                    <input type="text" class="form-control mt-2 mb-2" id="bkash-TrxID" aria-describedby="bkash-TrxID" placeholder="Enter the TrxID">
+
+                                                </div>
+
+
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </form>
+                                        </div>
+
+
 
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -525,9 +640,9 @@
     <!---------------- Always Display Fix Div ------------------->
 
     <div class="fix-right-div">
-        <a href="#">Advertise</a>
+        <a href="advertise.htm">Advertise</a>
         <a href="#">Customer Care</a>
-        <a href="#">Sign Up</a>
+        <a href="#l" href="#" tabindex="-1" aria-disabled="true" data-toggle="modal" data-target="#signUp-modal">Sign Up</a>
 
     </div>
 
@@ -545,31 +660,21 @@
             $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
-    <script>
-        $('#myModal').on('shown.bs.modal', function() {
-            $('#myInput').trigger('focus')
-        })
-    </script>
 
     <script>
-        window.marketer = function(x) {
-            if (x == no) {
-                document.getElementById('reagent_code').style.display = 'none';
-            } else if (x == yes) {
-                document.getElementById('reagent_code').style.display = 'block';
-                return;
-            }
-        }
+        var count;
 
-        window.marketer1 = function(y) {
-            if (y == no) {
-                document.getElementById('reagent_code1').style.display = 'none';
-            } else if (y == yes) {
-                document.getElementById('reagent_code1').style.display = 'block';
-                return;
+        function starmark(item) {
+            count = item.id[0];
+            sessionStorage.starRating = count;
+            var subid = item.id.substring(1);
+            for (var i = 0; i < 5; i++) {
+                if (i < count) {
+                    document.getElementById((i + 1) + subid).style.color = "orange";
+                } else {
+                    document.getElementById((i + 1) + subid).style.color = "black";
+                }
             }
         }
     </script>
 </body></html>
-
-

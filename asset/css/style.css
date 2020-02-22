@@ -33,8 +33,11 @@ body {
 }
 
 
+/* Reveiw Start */
+.checked {
+    color: orange;
 
-
+}
 
 
 /* ---------------- Home Page CSS ----------------*/
@@ -159,6 +162,20 @@ body {
     color: orange;
     font-size: 2rem;
     padding: .5rem;
+}
+
+
+/* ========== Free Listing Page ========== */
+
+.free-listing {
+    background: white;
+    padding: 2rem;
+}
+
+
+.free-listing h5 {
+    text-transform: uppercase;
+    color: orange;
 }
 
 /* ========== Category Page ========== */
