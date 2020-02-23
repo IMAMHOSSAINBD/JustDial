@@ -443,13 +443,14 @@ body {
 /* ---------------- Sing Up Page CSS ----------------*/
 
 
-.signUp .nav-pills  {
+.signUp .nav-pills {
     background: white;
     padding: .5rem;
     border-radius: 5px;
+    -webkit-box-shadow: 2px 5px 5px gray;
     box-shadow: 2px 5px 5px gray;
     border-bottom: 2px solid #1274c0;
-    
+
 }
 
 .signUp .nav-pills .nav-item .active {
@@ -459,8 +460,9 @@ body {
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border: 1px solid orange;
-    
+
 }
+
 .signUp .nav-pills .nav-item a {
     font-weight: bold;
     color: #1274c0 !important;
@@ -468,7 +470,7 @@ body {
 
 
 .signUp .tab-content .active {
-    
+
     padding: 1rem;
     background: #c3c3c3;
 }
