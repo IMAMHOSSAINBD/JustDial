@@ -270,3 +270,19 @@ window.rocket = function (rocketFunction) {
         return;
     }
 }
+
+
+
+/*---------------------- Sign Up Page JS ---------------------*/
+
+
+function show() {
+    var option = document.getElementById("businessType").value;
+
+    if (option == "Free") {
+        document.getElementById("freeExpand").style.display = "block";
+    }
+    if (option == "Premium") {
+        document.getElementById("premiumExpand").style.display = "block";
+    }
+}

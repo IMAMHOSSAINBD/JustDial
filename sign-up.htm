@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link rel="stylesheet" href="asset/css/owl.carousel.css">
+    <link rel="stylesheet" href="asset/css/owl.theme.default.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+
+    <title>Justdial - Local Search, Social, News, Videos, Shopping</title>
+</head>
+
+<body>
+
+    <section class="navbar-section">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.htm"><img src="asset/img/logo.png" class="img-fluid" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse float-right" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item highlight">
+                            <a class="nav-link" href="free-listing.htm">Free Listing <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="advertise.htm">Advertise</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">English</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true" data-toggle="modal" data-target="#login-modal">Login</a>
+
+                            <!-- Login Modal -->
+                            <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="edit-modal-Label" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-center">
+
+                                            <div class="d-block">
+                                                <a href="#">
+                                                    <img src="asset/img/logo.png" class="img-fluid" alt="">
+                                                </a>
+                                            </div>
+
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-dark">
+                                            <p class="text-center">Login for Seamless experience</p>
+                                            <form>
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" id="loginName" aria-describedby="loginName" placeholder="Name">
+
+                                                </div>
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" id="loginNumber" placeholder="Mobile Number">
+                                                </div>
+
+                                                <button type="submit" class="btn btn-info">Send OTP</button>
+                                            </form>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                            <span>/</span>
+
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="sign-up.htm">Sign Up</a>
+                        </li>
+                        <!-- Dropdown Nave -->
+                        <!--
+                            <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sing Up
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         <a class="dropdown-item" href="#">Agent</a>
+          <a class="dropdown-item" href="#">Business</a>
+          
+          <a class="dropdown-item" href="#">Freelancer</a>
+          
+          
+        </div>
+      </li>
+-->
+
+
+
+
+                        <!--
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true" data-toggle="modal" data-target="#signUp-modal">Sing Up</a>
+                             Login Modal 
+                            <div class="modal fade" id="signUp-modal" tabindex="-1" role="dialog" aria-labelledby="signUp-modal-Label" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-center">
+
+                                            <div class="d-block">
+                                                <a href="#">
+                                                    <img src="asset/img/logo.png" class="img-fluid" alt="">
+                                                </a>
+                                            </div>
+
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body text-dark">
+                                            <p class="text-center">Sign Up for Seamless experience</p>
+                                            <form>
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" id="signUpName" aria-describedby="signUpName" placeholder="Name">
+
+                                                </div>
+                                                <div class="form-group">
+
+                                                    <input type="text" class="form-control" id="signUpNumber" placeholder="Mobile Number">
+                                                </div>
+                                                <div class="form-group">
+
+                                                    <input type="password" class="form-control" id="signUpPassword" placeholder="Password">
+                                                </div>
+
+                                                <div class="form-group form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">I Agree to JustDial's <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></label>
+                                                </div>
+
+                                                <button type="submit" class="btn btn-info">Sign Up</button>
+                                            </form>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+-->
+
+
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section class="signUp">
+        <div class="container">
+            <div class="pt-2">
+                <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-agent-tab" data-toggle="pill" href="#pills-agent" role="tab" aria-controls="pills-agent" aria-selected="true">Agent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-business-tab" data-toggle="pill" href="#pills-business" role="tab" aria-controls="pills-business" aria-selected="false">Business</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-freelancer-tab" data-toggle="pill" href="#pills-freelancer" role="tab" aria-controls="pills-freelancer" aria-selected="false">Freelancer</a>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+
+
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-agent" role="tabpanel" aria-labelledby="pills-agent-tab">
+
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="firstName">First Name</label>
+                                <input type="text" class="form-control form-control-lg" id="firstName" aria-describedby="firstName" placeholder="First Name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control form-control-lg" id="lastName" aria-describedby="lastName" placeholder="Last Name">
+                            </div>
+
+
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="text" class="form-control form-control-lg" id="phoneNumber" aria-describedby="phoneNumber" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control form-control-lg" id="email" aria-describedby="email" placeholder="justdial@gmail.com">
+                            </div>
+
+
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="companyName">Company Name</label>
+                                <input type="text" class="form-control form-control-lg" id="companyName" aria-describedby="companyName" placeholder="Company Name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control form-control-lg" id="password" aria-describedby="password" placeholder="Password">
+                            </div>
+
+
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="nidFront">Upload NID front side</label>
+                                <input type="file" class="form-control-file" id="nidFront">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="nidBack">Upload NID back side</label>
+                                <input type="file" class="form-control-file" id="nidBack">
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group form-check text-center">
+                            <input type="checkbox" class="form-check-input" id="checkMark">
+                            <label class="form-check-label" for="checkMark">I Agree to JustDial's <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></label>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-info btn-lg pt-2 pl-4 pr-4 pb-2">Submit</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+
+
+                <div class="tab-pane fade" id="pills-business" role="tabpanel" aria-labelledby="pills-business-tab">
+
+
+                    <form>
+                        <div>
+                            <label for="businessType">Select Business Type</label>
+                            <select name="businessType" id="businessType" onchange="show()">
+                                <option value="..." class="selected">...</option>
+                                <option value="Free">Free</option>
+                                <option value="Premium">Premium</option>
+
+                            </select>
+                        </div>
+
+                        <div id="freeExpand" style="display:none;">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="firstName1">First Name</label>
+                                    <input type="text" class="form-control form-control-lg" id="firstName1" aria-describedby="firstName1" placeholder="First Name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="lastName1">Last Name</label>
+                                    <input type="text" class="form-control form-control-lg" id="lastName1" aria-describedby="lastName1" placeholder="Last Name">
+                                </div>
+
+
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="phoneNumber1">Phone Number</label>
+                                    <input type="text" class="form-control form-control-lg" id="phoneNumber1" aria-describedby="phoneNumber1" placeholder="Phone Number">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="email1">Email</label>
+                                    <input type="email1" class="form-control form-control-lg" id="email1" aria-describedby="email1" placeholder="justdial@gmail.com">
+                                </div>
+
+
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="companyName1">Company Name</label>
+                                    <input type="text" class="form-control form-control-lg" id="companyName1" aria-describedby="companyName1" placeholder="Company Name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="password">Password</label>
+                                    <input type="password1" class="form-control form-control-lg" id="password1" aria-describedby="password1" placeholder="Password">
+                                </div>
+
+
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="nidFront1">Upload NID front side</label>
+                                    <input type="file" class="form-control-file" id="nidFront1">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="nidBack1">Upload NID back side</label>
+                                    <input type="file" class="form-control-file" id="nidBack1">
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group form-check text-center">
+                                <input type="checkbox" class="form-check-input" id="checkMark1">
+                                <label class="form-check-label" for="checkMark1">I Agree to JustDial's <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></label>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-info btn-lg pt-2 pl-4 pr-4 pb-2">Submit</button>
+                            </div>
+                        </div>
+                        <div id="premiumExpand" style="display:none;">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="firstName2">First Name</label>
+                                    <input type="text" class="form-control form-control-lg" id="firstName2" aria-describedby="firstName2" placeholder="First Name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="lastName2">Last Name</label>
+                                    <input type="text" class="form-control form-control-lg" id="lastName2" aria-describedby="lastName2" placeholder="Last Name">
+                                </div>
+
+
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="phoneNumber2">Phone Number</label>
+                                    <input type="text" class="form-control form-control-lg" id="phoneNumber2" aria-describedby="phoneNumber2" placeholder="Phone Number">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email</label>
+                                    <input type="email2" class="form-control form-control-lg" id="email2" aria-describedby="email2" placeholder="justdial@gmail.com">
+                                </div>
+
+
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="companyName">Company Name</label>
+                                    <input type="text" class="form-control form-control-lg" id="companyName2" aria-describedby="companyName2" placeholder="Company Name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control form-control-lg" id="password2" aria-describedby="password2" placeholder="Password">
+                                </div>
+
+
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="nidFront2">Upload NID front side</label>
+                                    <input type="file" class="form-control-file" id="nidFront2">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="nidBack2">Upload NID back side</label>
+                                    <input type="file" class="form-control-file" id="nidBack2">
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group form-check text-center">
+                                <input type="checkbox" class="form-check-input" id="checkMark2">
+                                <label class="form-check-label" for="checkMark2">I Agree to JustDial's <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></label>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-info btn-lg pt-2 pl-4 pr-4 pb-2">Submit</button>
+                            </div>
+                        </div>
+
+
+                    </form>
+
+
+                </div>
+
+
+                <div class="tab-pane fade" id="pills-freelancer" role="tabpanel" aria-labelledby="pills-freelancer-tab">
+
+
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="firstNameFree">First Name</label>
+                                <input type="text" class="form-control form-control-lg" id="firstNameFree" aria-describedby="firstNameFree" placeholder="First Name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="lastNameFree">Last Name</label>
+                                <input type="text" class="form-control form-control-lg" id="lastNameFree" aria-describedby="lastNameFree" placeholder="Last Name">
+                            </div>
+
+
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="phoneNumberFree">Phone Number</label>
+                                <input type="text" class="form-control form-control-lg" id="phoneNumberFree" aria-describedby="phoneNumberFree" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">Email</label>
+                                <input type="emailFree" class="form-control form-control-lg" id="emailFree" aria-describedby="emailFree" placeholder="justdial@gmail.com">
+                            </div>
+
+
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="companyNameFree">Freelancer Profile Link</label>
+                                <input type="text" class="form-control form-control-lg" id="ProfileLink" aria-describedby="ProfileLink" placeholder="Freelancer Profile Link">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="passwordFree">Password</label>
+                                <input type="password" class="form-control form-control-lg" id="passwordFree" aria-describedby="passwordFree" placeholder="Password">
+                            </div>
+
+
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="nidFrontFree">Upload NID front side</label>
+                                <input type="file" class="form-control-file" id="nidFrontFree">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="nidBackFree">Upload NID back side</label>
+                                <input type="file" class="form-control-file" id="nidBackFree">
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group form-check text-center">
+                            <input type="checkbox" class="form-check-input" id="checkMarkFree">
+                            <label class="form-check-label" for="checkMark">I Agree to JustDial's <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></label>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-info btn-lg pt-2 pl-4 pr-4 pb-2">Submit</button>
+                        </div>
+
+                    </form>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- Start Footer -->
+    <footer>
+
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-md-10">
+                        <ul class="list-unstyled">
+                            <li><a href="#">We're hiring</a></li>
+                            <li><a href="#">Customer care</a></li>
+                            <li><a href="#">Free Listing</a></li>
+                            <li><a href="#">Advertise</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Media</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Feedback</a></li>
+                            <li><a href="#">Business Badge</a></li>
+                            <li><a href="#">Report a Bug</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-2 flag pt-2">
+                        <ul class="list-unstyled ">
+                            <li><a href="#">
+                                    <img src="asset/img/uae-flag.png" class="img-fluid" width="30%" alt="UAE Flag">
+                                </a></li>
+                            <li><a href="#">
+                                    <img src="asset/img/usa-flag.png" class="img-fluid" width="30%" alt="UAE Flag">
+                                </a></li>
+                            <li><a href="#">
+                                    <img src="asset/img/canada-flag.png" class="img-fluid" width="30%" alt="UAE Flag">
+                                </a></li>
+
+
+                        </ul>
+
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-3 pr-1 mt-2 mb-2">
+                                <img src="asset/img/Google-Play.png" class="img-fluid" alt="App Image">
+                            </div>
+                            <div class="col-md-3 pl-1 pr-1 mt-2 mb-2">
+                                <img src="asset/img/App-Store.png" class="img-fluid" alt="App Image">
+                            </div>
+                            <div class="col-md-3 pl-1 pr-1 mt-2 mb-2">
+                                <img src="asset/img/windows-store.png" class="img-fluid" alt="App Image">
+                            </div>
+                            <div class="col-md-3 pl-1 mt-2 mb-2 ">
+                                <img src="asset/img/blackberry-store.png" class="img-fluid" alt="App Image">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-5">
+                        <div class="d-inline float-right icon-bottom">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-blogger-b"></i></a>
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <p class="text-justify">Some of the other services that can be of assistance to you for leisure, health and home convenience are - Courier Service, Laundry Service, AC Repair, Thyrocare, Metropolis, Order Mineral Water, Book a Table, Doctor's Appointment, Order Food Online, etc.
+                    <br>
+                    <br>
+                    With an endless number of things under the sun, you can be sure this will be your 'One Stop Shop' to find everything and more.</p>
+            </div>
+
+            <div class="footer-bottom text-center">
+
+                <p>Copyrights 2008-20 <a href="http://spinnertech.dev/" class=" text-info font-weight-bold" target="_blank">Spinner Tech</a>. All Rights Reserved. <a href="#">Privacy</a> | <a href="#">Terms</a> | <a href="#">Infringement </a>View Just Dial on <a href="#">Smartphone</a>| <a href="#">Mobile</a></p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <!---------------- Always Display Fix Div ------------------->
+
+    <div class="fix-right-div">
+        <a href="advertise.htm">Advertise</a>
+        <a href="#">Customer Care</a>
+        <a href="sign-up.htm">Sign Up</a>
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="asset/js/owl.carousel.min.js"></script>
+    <script src="asset/js/main.js"></script>
+
+</body></html>
