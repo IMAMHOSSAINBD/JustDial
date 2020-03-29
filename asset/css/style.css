@@ -474,3 +474,55 @@ body {
     padding: 1rem;
     background: #c3c3c3;
 }
+
+
+
+
+
+/*---------------------------*/
+.order-btn {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.order-btn a {
+
+    padding: 1rem 5rem;
+    color: white;
+    font-weight: bold;
+    background: orange;
+    border: 1px solid #1274c0;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+
+.order-btn a:hover {
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    background: white;
+    color: orange;
+}
+
+.bkash-form {
+
+    width: 60%;
+    margin: auto;
+    border: 1px solid #1274c0;
+    padding: .8rem;
+    border-radius: 10px;
+
+}
+
+
+.rocket-form {
+    width: 95%;
+    margin: auto;
+    border: 1px solid #1274c0;
+    padding: .8rem;
+    border-radius: 10px;
+
+}
