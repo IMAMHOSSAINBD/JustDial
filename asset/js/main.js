@@ -2,7 +2,7 @@
 
 var owl = $('.popular-carousel');
 owl.owlCarousel({
-    items: 3,
+    items: 4,
     loop: true,
     margin: 10,
     autoplay: true,
@@ -31,7 +31,7 @@ $('.popular-carousel').owlCarousel({
 
 var owl = $('.trending-carousel');
 owl.owlCarousel({
-    items: 3,
+    items: 4,
     loop: true,
     margin: 10,
     autoplay: true,
@@ -59,7 +59,7 @@ $('.trending-carousel').owlCarousel({
 
 var owl = $('.motoCare-carousel');
 owl.owlCarousel({
-    items: 3,
+    items: 4,
     loop: true,
     margin: 10,
     autoplay: true,
@@ -88,7 +88,7 @@ $('.motoCare-carousel').owlCarousel({
 
 var owl = $('.b2b-carousel');
 owl.owlCarousel({
-    items: 3,
+    items: 4,
     loop: true,
     margin: 10,
     autoplay: true,
@@ -116,7 +116,7 @@ $('.b2b-carousel').owlCarousel({
 
 var owl = $('.medical-carousel');
 owl.owlCarousel({
-    items: 3,
+    items: 4,
     loop: true,
     margin: 10,
     autoplay: true,
@@ -144,7 +144,7 @@ $('.medical-carousel').owlCarousel({
 
 var owl = $('.automobile-carousel');
 owl.owlCarousel({
-    items: 3,
+    items: 4,
     loop: true,
     margin: 10,
     autoplay: true,
